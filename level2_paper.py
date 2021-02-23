@@ -35,13 +35,16 @@ def solution(w,h):
             return answer
         
         else:
-            if h % 2 == 0 and w % 2 ==0:
+            if h % 2 == 0 :
+                if w % 2 ==0:
                     answer = (h*w)-(w*2)
                     print(answer)
                     return answer    
+        
 
             
     
     
 
 solution(w,h)
+
